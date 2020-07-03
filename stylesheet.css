@@ -91,7 +91,7 @@ header {
 
 }
 .profil-item{
-	margin-left: 80px;
+	margin-left: 50px;
 	float: left;
 	text-align: center;
 }
@@ -100,7 +100,7 @@ header {
 }
 .deskripsi-profil{
 
-  width: 80%;
+  width: 200px;
   color:#b9b8b8;
   display : inline-block;
   margin-top: 20px;
