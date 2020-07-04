@@ -25,29 +25,11 @@ header {
   width: 50px;
 }
 
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-}
-
-
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-}
-
 .main{
+
 	padding: 65px 0 180px 0;
 }
 .container{
-	width: 1170px;
 	padding: 0 25px 0 25px;
 	margin : 0 auto;
 
@@ -58,7 +40,8 @@ header {
 	background-color: #1deade;
 	color: white;
 	text-align: center;
-	padding : 180px 0 100px 0;
+	padding-top : 180px;
+	padding-bottom: 100px;
 
 }
 .container h1{
@@ -204,7 +187,8 @@ font-size: 30px;
 }
 .header-right{
   float: right;
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
 }
 .header-right:hover{
   background-color:rgba(255, 255, 255, 0.5);
@@ -215,4 +199,10 @@ font-size: 30px;
   line-height: 65px;
   display: block;
 }
- 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  visibility: hidden;
+ }
