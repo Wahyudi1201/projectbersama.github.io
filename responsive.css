@@ -10,6 +10,7 @@
   	line-height: 65px;
   	visibility: visible;
 }
+
 .container h1{
 	
 	letter-spacing: 10px;
@@ -141,7 +142,7 @@ font-size: 30px;
 }
 
 }
-@media(max-width: 500px){
+@media(max-width: 450px){
 .header-right a{
 	padding: 0 25px 0 25px;
 	display: none;
@@ -152,6 +153,11 @@ font-size: 30px;
   	color: white;
   	line-height: 65px;
   	visibility: visible;
+}
+.container{
+	padding: 0 25px 0 25px;
+	margin : 0 auto;
+
 }
 .container h1{
 	
